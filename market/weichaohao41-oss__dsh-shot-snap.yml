@@ -1,0 +1,16 @@
+# 提交到 awesome-dsh-plugin 的条目文件
+#
+# 1) fork https://github.com/awesome-dsh-plugin/awesome-dsh-plugin
+# 2) 在 fork 里进 data/plugins/ → Add file → Create new file
+# 3) 文件名用 weichaohao41-oss__dsh-shot-snap.yml
+# 4) 内容照抄下面（去掉本段注释），Create pull request
+#
+# 注意：仓库创建满 1 天后才能投（CI 会自动查）；如果仓库仍叫 my-treasures，
+# 把下面 url / name 里的 my-treasures 换掉即可。
+
+url: https://github.com/weichaohao41-oss/dsh-shot-snap
+name: weichaohao41-oss/dsh-shot-snap
+category: ui
+description:
+  en: 'Screenshot straight into the chat composer: drag a region over any window, annotate it with rectangles, arrows, mosaic or text, and press Enter to put it into the current input''s attachment tray — local only, never auto-sent.'
+  zh: '对话窗口截图插件：框选任意窗口画面，用矩形、箭头、马赛克或文字标注，回车即插入当前输入框附件区（纯本地，不自动发送）。'
