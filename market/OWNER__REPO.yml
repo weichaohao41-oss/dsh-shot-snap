@@ -1,0 +1,17 @@
+# 提交到 awesome-dsh-plugin 市场的条目文件
+#
+# 用法：把这个文件改名为  data/plugins/<owner>__<repo>.yml
+#       （owner / repo 用你的 GitHub 仓库名，例如 octocat__dsh-shot-snap.yml）
+# 放到 https://github.com/awesome-dsh-plugin/awesome-dsh-plugin 的 data/plugins/ 下，
+# 开一个只加这一个文件的 PR 即可。合并后 dshmarket / 插件市场会在一天内收录。
+#
+# 注意：description 里只要出现「冒号 + 空格」，整段必须用单引号包起来（否则 YAML 解析失败）。
+
+url: https://github.com/OWNER/REPO
+name: OWNER/REPO
+category: ui
+description:
+  en: 'Screenshot straight into the chat composer: drag a region over any window, annotate it with rectangles, arrows, mosaic or text, and press Enter to put it in the current input''s attachment tray — local only, never auto-sent.'
+  zh: '对话窗口截图插件：框选任意窗口画面，用矩形、箭头、马赛克或文字标注，回车即插入当前输入框附件区（纯本地，不自动发送）。'
+# 可选：市场卡片图（GitHub 托管的位图，建议 180×180 PNG）；不写则回退到作者头像
+# icon: https://raw.githubusercontent.com/OWNER/REPO/main/assets/icon-180.png

@@ -1,0 +1,50 @@
+{
+  "name": "dsh-shot-snap",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "description": "Screenshot straight into the composer: drag a region in the DSH chat window, annotate it, and it lands in the input's attachment tray — local only, never auto-sent, hotkey configurable. · 截图即插入：在对话窗口输入区框选截图并标注，自动进入输入框附件区（纯本地、不自动发送、快捷键可配置）",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "deepseek-harness",
+    "screenshot",
+    "snipping",
+    "annotation",
+    "clipboard",
+    "截图",
+    "框选"
+  ],
+  "license": "MIT",
+  "author": "shot-snap contributors",
+  "engines": {
+    "dsh": ">=0.2.0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+# dsh-shot-snap bundle patch：Host 半片（截屏路由）+ 浏览器半片（截图按钮 / 框选遮罩）
+- insert:
+    - id: shot-snap
+      name: 'dsh-shot-snap'
