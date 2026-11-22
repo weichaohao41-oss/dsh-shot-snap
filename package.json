@@ -17,7 +17,15 @@
     "框选"
   ],
   "license": "MIT",
-  "author": "shot-snap contributors",
+  "author": "weichaohao41-oss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weichaohao41-oss/dsh-shot-snap.git"
+  },
+  "homepage": "https://github.com/weichaohao41-oss/dsh-shot-snap#readme",
+  "bugs": {
+    "url": "https://github.com/weichaohao41-oss/dsh-shot-snap/issues"
+  },
   "engines": {
     "dsh": ">=0.2.0"
   },
