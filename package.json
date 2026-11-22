@@ -1,6 +1,6 @@
 {
   "name": "dsh-shot-snap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "index.js",
   "description": "Screenshot straight into the composer: drag a region in the DSH chat window, annotate it, and it lands in the input's attachment tray — local only, never auto-sent, hotkey configurable. · 截图即插入：在对话窗口输入区框选截图并标注，自动进入输入框附件区（纯本地、不自动发送、快捷键可配置）",

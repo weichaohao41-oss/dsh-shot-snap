@@ -8,6 +8,21 @@ dsh plugin add dsh-shot-snap
 # 或在「插件 → 发现 / 插件市场」里搜 shot-snap 一键安装
 ```
 
+## 安装
+
+要求：**Windows 桌面版 DSH（≥ 0.2.0）**。抓屏走 `powershell.exe` + Win32 API，浏览器版（`dsh web`）
+和 macOS / Linux 用不了。
+
+三种装法，任选：
+
+| 方式 | 命令 | 说明 |
+| --- | --- | --- |
+| npm | `dsh plugin add dsh-shot-snap` | 推荐；也可直接对 DSH 里的 agent 说「装插件 dsh-shot-snap」 |
+| GitHub | `dsh plugin add github:weichaohao41-oss/dsh-shot-snap` | 不需要 npm，但要能访问 github.com |
+| 本地 | `dsh plugin add link:D:\path\to\shot-snap-plugin` | 离线拷贝整个目录；只拷 tgz 就用 `file:...\dsh-shot-snap-1.0.0.tgz` |
+
+装好后刷新窗口（`Ctrl + R`），输入框工具行左侧会出现截图按钮。
+
 > In one line: press the button next to the composer (or `Ctrl + Shift + S`), drag a region on your
 > screen, mark it up with arrows and boxes, and the crop lands in the current chat's attachment tray
 > as a normal image — nothing is uploaded anywhere else, and nothing is ever sent for you.
